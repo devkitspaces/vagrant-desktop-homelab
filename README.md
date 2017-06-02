@@ -7,7 +7,7 @@
 
 ## Summary
 
-Provide a method of reproducible graphical development environments based on Linux.  This repositroy provides a base Linux Desktop environment, sandboxed on their local computer.  
+Provide a method of reproducible graphical development environments based on Linux.  This repositroy provides a Homelab Linux Desktop environment, sandboxed on their local computer.
 
 ## Usage
 
@@ -47,24 +47,21 @@ On first run (`vagrant up`) the base `bento/ubuntu` image will be downloaded, an
 
 ### Architecture
 
-The `vagrant-desktop` is meant to be included as a git submodules as part of `.Workspace` projects.  The following is the architecture of a `.Workspace` meta-project:
+The `vagrant-desktop-homelab` is meant to be included as a git submodules as part of `.Workspace` projects.  The following is the architecture of a `.Workspace` meta-project:
 
 ```
 * .Workspace Repository
     * bin
     * lib
     * Repositories
-        * MySourceCode (git repo submodule)
-        * MyLibCode (git repo submodule)
+        * MyHomeLab (git repo submodule)
     * vagrant-desktop (git repo submodule)
     * build
-        * build-all.sh
+        * start-all.sh
     README.md
 ```
 
-The concept of this architecture is that the vagrant-desktop git repository can provision the desktop environment necessary for development.  From within the environment you can then edit the source code that is on the host system.
-
-Essential tasks like pushing/pulling from the repository can be handled on the host machine to avoid having to copy secrets in the virtual machine.
+The concept of this architecture is to enabling experimenting with `homelab` concepts.
 
 ### Shared Folders
 
@@ -92,13 +89,11 @@ The following are the dependencies of the vagrant project
 * `getoptlong` - The [GetoptLong](http://ruby-doc.org/stdlib-2.1.0/libdoc/getoptlong/rdoc/GetoptLong.html) class allows you to parse command line options similarly to the GNU getopt_long() C library call.
 * `yaml` - The [YAML](https://ruby-doc.org/stdlib-1.9.3/libdoc/yaml/rdoc/YAML.html) module provides a Ruby interface for data serialization in YAML format.
 
-[^1]: The
-
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
 [license-link]: LICENSE
 
 [image-badge]: https://img.shields.io/badge/box-bento/ubuntu-red.svg?maxAge=2592000
 [image-link]: https://atlas.hashicorp.com/bento/boxes/ubuntu-16.10
 
-[vagrant-badge]: https://img.shields.io/badge/vagrant-2-green.svg?maxAge=2592000
+[vagrant-badge]: https://img.shields.io/badge/vagrant.api-2-green.svg?maxAge=2592000
 [vagrant-link]: src/Vagrantfile
