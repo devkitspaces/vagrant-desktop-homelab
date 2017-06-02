@@ -11,6 +11,7 @@ boxes/*
 /.vagrant
 /website/.vagrant
 /website/build
+/src/.vagrant
 /vagrant-spec.config.rb
 
 # Bundler/Rubygems
@@ -46,6 +47,4 @@ doc/
 .ruby-gemset
 .ruby-version
 .rvmrc
-*.yml
-*.yaml
-src/.vagrant/
+src/settings.yaml
