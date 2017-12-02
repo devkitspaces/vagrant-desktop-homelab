@@ -1,13 +1,4 @@
 # Vagrant Homelab Desktop
-[![Vagrant][vagrant-badge]][vagrant-link]
-[![License][license-badge]][license-link]
-[![Image][image-badge]][image-link]
-
----
-
- * [Summary](#summary)
- * [Components](#components)
- * [Development](#development)
 
 ## Summary
 
@@ -95,13 +86,6 @@ The following are the dependencies of the vagrant project
 
 ## Acknowledgements
 
-The project icon is by [Maxi Koichi from the Noun Project](docs/icon/README.md).
+The project icon is retrieved from [the Noun Project](docs/icon/icon.json). The original source material has been altered for the purposes of the project. The icon is used under the terms of the [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
 
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
-[license-link]: LICENSE
-
-[image-badge]: https://img.shields.io/badge/box-bento/ubuntu-red.svg?maxAge=2592000
-[image-link]: https://atlas.hashicorp.com/bento/boxes/ubuntu-16.10
-
-[vagrant-badge]: https://img.shields.io/badge/vagrant.api-2-green.svg?maxAge=2592000
-[vagrant-link]: src/Vagrantfile
+The project icon is by [Five by Five from the Noun Project](https://thenounproject.com/term/startup/38246/).
