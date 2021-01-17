@@ -1,0 +1,21 @@
+{
+  "slug": "vagrant-desktop-homelab",
+  "namespace": "jrbeverly",
+  "status": "archived",
+  "icon": "icon.svg",
+  "license": {
+    "type": "MIT",
+    "content": "Jonathan Beverly <jrbeverly>"
+  },
+  "topics": [
+    "vagrant",
+    "shell",
+    "homelab",
+    "desktop-environment",
+    "docker"
+  ],
+  "languages": [
+    "Dockerfile",
+    "Shell"
+  ]
+}
