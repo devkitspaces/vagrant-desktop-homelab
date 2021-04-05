@@ -1,0 +1,18 @@
+slug: vagrant-desktop-homelab
+description: This repository provides a base Homelab Desktop environment, sandboxed on your local computer.
+project: devkitspaces
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "vagrant",
+    "shell",
+    "homelab",
+    "desktop-environment",
+    "docker"
+  ]
